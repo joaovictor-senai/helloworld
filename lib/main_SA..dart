@@ -128,7 +128,7 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            // Card de Entrada de Dados e Configurações
+            
             Card(
               elevation: 3,
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -147,7 +147,7 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
                     const SizedBox(height: 12),
                     Row(
                       children: [
-                        // Seletor de Categoria
+                        
                         Expanded(
                           child: DropdownButtonFormField<String>(
                             value: _categoriaSelecionada,
@@ -163,7 +163,7 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
                           ),
                         ),
                         const SizedBox(width: 10),
-                        // Seletor de Prioridade
+                     
                         Expanded(
                           child: DropdownButtonFormField<Prioridade>(
                             value: _prioridadeSelecionada,
@@ -255,7 +255,7 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
 
             const SizedBox(height: 8),
 
-            // Lista de Tarefas
+            
             Expanded(
               child: tarefasFiltradas.isEmpty
                   ? const Center(
