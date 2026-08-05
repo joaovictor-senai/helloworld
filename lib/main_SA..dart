@@ -49,7 +49,7 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
   
   String _categoriaSelecionada = 'Trabalho';
   Prioridade _prioridadeSelecionada = Prioridade.media;
-  String _filtroAtual = 'Todas'; // Todas, Pendentes, Concluídas
+  String _filtroAtual = 'Todas'; 
 
   final List<Tarefa> _tarefas = [
     Tarefa(titulo: 'Organizar a área de trabalho do computador', categoria: 'Trabalho', prioridade: Prioridade.alta),
