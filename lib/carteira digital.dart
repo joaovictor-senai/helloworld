@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: const Text("Carteira Digital")),
         body: Center(
-          child: SingleChildScrollView( // pesquisei oque seria SingleChildScrollView e ele é um widget que permite rolar seu conteúdo quando ele ultrapassa os limites da tela
+          child: SingleChildScrollView( 
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
                               Text("NOME",
                                   style: TextStyle(
                                       color: Colors.grey, fontSize: 10)),
-                              Text("Davi Antonio Santos",
+                              Text("joão victor",
                                   style: TextStyle(color: Colors.white)),
                             ],
                           ),
@@ -134,7 +134,7 @@ class MyApp extends StatelessWidget {
                               Text("NOME",
                                   style: TextStyle(
                                       color: Colors.grey, fontSize: 10)),
-                              Text("Davi Antonio Santos",
+                              Text("joão victor Monteiro",
                                   style: TextStyle(color: Colors.white)),
                             ],
                           ),
@@ -203,7 +203,7 @@ class MyApp extends StatelessWidget {
                               Text("NOME",
                                   style: TextStyle(
                                       color: Colors.grey, fontSize: 10)),
-                              Text("Davi Antonio Santos",
+                              Text("joão victor Monteiro",
                                   style: TextStyle(color: Colors.white)),
                             ],
                           ),
