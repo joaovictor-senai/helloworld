@@ -49,7 +49,7 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
   
   String _categoriaSelecionada = 'Trabalho';
   Prioridade _prioridadeSelecionada = Prioridade.media;
-  String _filtroAtual = 'Todas'; // Todas, Pendentes, Concluídas
+  String _filtroAtual = 'Todas'; 
 
   final List<Tarefa> _tarefas = [
     Tarefa(titulo: 'Organizar a área de trabalho do computador', categoria: 'Trabalho', prioridade: Prioridade.alta),
@@ -128,7 +128,11 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
+<<<<<<< HEAD
           
+=======
+            
+>>>>>>> 656360ce34e7b124fec317767770bf3f2d3a097d
             Card(
               elevation: 3,
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -147,7 +151,11 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
                     const SizedBox(height: 12),
                     Row(
                       children: [
+<<<<<<< HEAD
                        
+=======
+                        
+>>>>>>> 656360ce34e7b124fec317767770bf3f2d3a097d
                         Expanded(
                           child: DropdownButtonFormField<String>(
                             value: _categoriaSelecionada,
@@ -163,8 +171,12 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
                           ),
                         ),
                         const SizedBox(width: 10),
+<<<<<<< HEAD
                    
                    
+=======
+                     
+>>>>>>> 656360ce34e7b124fec317767770bf3f2d3a097d
                         Expanded(
                           child: DropdownButtonFormField<Prioridade>(
                             value: _prioridadeSelecionada,
@@ -256,7 +268,7 @@ class _ListaTarefasPageState extends State<ListaTarefasPage> {
 
             const SizedBox(height: 8),
 
-            // Lista de Tarefas
+            
             Expanded(
               child: tarefasFiltradas.isEmpty
                   ? const Center(
